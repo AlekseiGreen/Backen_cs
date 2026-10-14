@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace Dune2_Proto
+namespace Backend_cs
 {
     class Program
     {
@@ -197,6 +197,7 @@ namespace Dune2_Proto
             _spriteBatch.End();
 
             base.Draw(gameTime);
+
         }
     }
 }
