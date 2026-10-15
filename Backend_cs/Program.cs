@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Builder;
 
 namespace Backend_cs
 {
-    public class Programm
+    public class Program
     {
         public static void Main(string[] sender)
         {
