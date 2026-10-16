@@ -11,13 +11,13 @@ namespace Backend_cs.Controllers
         [HttpGet]
         public string Get()
         {
-            return "Это классический контроллер";
+            return "ГЛАВНЫЙ";
         }
         // Этот метод сработает при GET-запросе на адрес /home/test
         [HttpGet("test")]
         public string GetTest()
         {
-            return "Это тестовый эндпоинт контроллера"; 
+            return "TEST"; 
         }
     }
 }
